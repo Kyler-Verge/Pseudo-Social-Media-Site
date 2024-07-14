@@ -1,0 +1,199 @@
+/*Kyler Verge 101114854*/
+/* general text formatting */
+h1,
+h2,
+h3,
+nav,
+footer,
+div {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+/* header and footer styling */
+header,
+footer {
+  color: white;
+  background-color: #4b4b4b;
+}
+
+header h1 {
+  padding: 8px 0 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 16px;
+  padding: 0 0 0 20px;
+}
+
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  border-style: groove;
+  height: 100%;
+  background-color: #c5c5c5;
+  text-align: center;
+  position: fixed;
+  margin-left: 3%;
+  
+}
+
+nav a{
+  display: block;
+  font-size: 18;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color:#4b4b4b;
+}
+
+/* main article styling */
+main {
+  background-color: white;
+}
+
+section {
+  margin-left: 16%;
+  padding-top: 10px;
+  width: 68%;
+  float: left;
+}
+
+/* Form style */
+legend {
+  margin: 0;
+  padding: 5px 0px;
+  height: 27.2px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+legend span {
+  display: inline;
+  padding: 0px 0px 0px 15px;
+}
+
+.legend2{
+  margin: 0;
+  padding: 5px 0px;
+  height: 27.2px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+.legend2 p{
+  display:inline;
+  padding: 0px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  width: 100%;
+  border: none;
+}
+
+form p {
+  margin-top: 8px;
+  margin-left: 16px;
+  padding: 0px 0px 0px 5px;
+}
+form input,
+select {
+  margin: 5px;
+}
+
+form input[type="submit"],
+input[type="reset"] {
+  margin: 10px 10px 10px 20px;
+  font-size: medium;
+  text-transform: capitalize;
+}
+
+section h2 {
+  font-size: 21.6px;
+  background-color: #919191;
+  height: 27.2px;
+  color: #f0f0f0;
+  border: solid 1px black;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+.avatar_img img{
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+  vertical-align: middle;
+}
+
+/* user info right side bar styling */
+.user_info{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  border-style: groove;
+  height: 100%;
+  background-color: #c5c5c5;
+  text-align: center;
+  position: fixed;
+  margin-left: 85%;
+
+}
+
+#user_info_img{
+  max-width: 54%;
+}
+
+#post_textbox{
+  margin-left:1%;
+  margin-top:1%;
+  width:44%;
+  height:70px;
+}
+
+div.posts{
+  margin-top:2%;
+}
+
+div.posts details{
+  border-style:groove;
+}
+
+div.posts p{
+  text-align:center;
+}
+
+label img {
+  margin: 16px 0px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
