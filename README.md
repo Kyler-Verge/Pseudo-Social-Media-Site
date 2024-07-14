@@ -5,3 +5,6 @@ Requires XAMPP Control Panel v3.3.0 and placing the project folder into htdocs f
 
 To access the website: 
 In XAMPP; APache and MySQL are both running then in a browser search bar type: ' localhost/kyler_verge_sms/login.php '
+
+To access the database:
+In XAMPP; click the Admin button in the MySQL row of options
